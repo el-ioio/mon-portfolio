@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    font-family: 'lato';
+    font-style: bold;
+    color: white;
+}
+
+h2 {
+    font-family: 'lato';
+    font-style: italic;
+    color: black;
+    background-color: #dbc2a4;
+    text-indent: 3%;
+}
+
+h3 {
+    font-family: 'lato';
+    font-style: normal;
+    color: black;
+}
+
+* {
+    font-family: 'raleway';
+}
+
+.mon-portrait {
+    border: 2px solid white;
+    border-radius: 60px 60px 60px 60px;
+    box-shadow: 1px 1px 10px 10px black;
+}
+
+.en-tête {
+    color: white;
+    background-color: #782221;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.informations {
+    background-color: #2c1d27;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-gauche {
+    color: white;
+    background-color: #782221;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.col-droit {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+footer {
+    color: white;
+    background-color: #782221;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+body {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.a-propos p {
+    text-indent: 8%;
+    overflow-y: auto;
+}
+
+.mon-portrait:hover {
+    cursor: zoom-in;
+}
+
+.col-gauche h2 {
+    margin-right: 25px;
+}
+
+.réseaux:hover {
+    filter: opacity(50%);
+}
+
+.lien:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.trait {
+    height: 4px;
+    background-color: #782221;
+    width: 0%;
+    transition: 1s;
+    position: relative;
+    margin-left: 450px;
+    max-width: 50px;
+}
+
+li:hover .trait {
+    width: 100%;
+}
+
+#formation:hover .trait {
+    width: 100%;
+}
+
+html {
+    background-color: #181818;
+}
