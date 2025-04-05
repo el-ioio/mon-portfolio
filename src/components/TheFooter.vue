@@ -1,6 +1,7 @@
 <template>
     <footer>
         <section class="liens">
+            <h2 class="sr-only">Liens</h2>
             <div class="logo">
                 <a href="https://github.com/el-ioio" target="_blank">
                     <img src="@/assets/image/github.png" alt="logo cliquable de github">

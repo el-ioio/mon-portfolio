@@ -1,26 +1,25 @@
 /* Couleurs principales */
 :root {
-    --couleur-fond: white;
-    --couleur-texte: black;
+  --couleur-fond: white;
+  --couleur-texte: black;
+}
+
+/* Mode sombre */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --couleur-fond: black;
+    --couleur-texte: white;
   }
-  
-  /* Mode sombre */
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --couleur-fond: black;
-      --couleur-texte: white;
-    }
-  }
-  
-  /* Réglages généraux */
-  * {
-    box-sizing: border-box;
-    /* margin: 0; */
-  }
-  
-  body {
-    background: var(--couleur-fond);
-    color: var(--couleur-texte);
-    font-family: Arial, sans-serif;
-    transition: background 0.5s, color 0.5s;
-  }
+}
+
+/* Réglages généraux */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--couleur-fond);
+  color: var(--couleur-texte);
+  font-family: Arial, sans-serif;
+  transition: background 0.5s, color 0.5s;
+}

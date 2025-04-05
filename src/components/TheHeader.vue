@@ -10,7 +10,7 @@
         </nav>
         <nav class="remonte">
             <a href="#presentation">
-                <img src="/fleche-remonte.jpg" alt="remonte la page tout en haut">
+                <img src="/fleche-remonte.jpg" alt="remonte la page">
             </a>
         </nav>
     </header>

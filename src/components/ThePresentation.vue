@@ -1,6 +1,8 @@
 <template>
     <section>
+        <h2 class="sr-only">Section présentation</h2>
         <article class="presentation">
+            <h3 class="sr-only">Présentation</h3>
             <div class="ma-photo">
                 <img class="mon-visage" src="@/assets/image/ma-photo.jpg" alt="Photo de presentation">
             </div>

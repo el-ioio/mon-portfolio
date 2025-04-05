@@ -17,7 +17,6 @@ import { RouterLink } from 'vue-router';
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    padding-left: 300px;
 }
 
 h1 {
@@ -26,5 +25,10 @@ h1 {
 
 p {
     font-size: 150%;
+}
+
+img {
+    width: 43%;
+    height: auto;
 }
 </style>

@@ -1,16 +1,16 @@
 <template>
-    <section id="projets" class="projects-container">
-      <div class="titre">
-        <h2>Mes projets</h2>
-      </div>
-      <div class="projects">
-      <Project
-        v-for="project in projects"
-        :key="project.id"
-        :project="project"
-      />
-      </div>
-    </section>
+  <section id="projets" class="projects-container">
+    <div class="titre">
+      <h2>Mes projets</h2>
+    </div>
+    <div class="projects">
+    <Project
+      v-for="project in projects"
+      :key="project.id"
+      :project="project"
+    />
+    </div>
+  </section>
 </template>
 
 <script>
