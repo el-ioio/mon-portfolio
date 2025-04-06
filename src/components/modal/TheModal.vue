@@ -9,6 +9,9 @@
         <p><strong>Technologie utilisée : </strong>{{ technology }}</p>
       </div>
       <a :href="link" id="ouvrir-lien" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+      <div v-if="codePdfUrl" class="mt-4 text-right">
+        <a :href="codePdfUrl" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Voir le code</a>
+      </div>
     </div>
   </div>
 </template>
@@ -39,6 +42,10 @@ export default {
     technology: {
       type: String,
       default: 'Non spécifiée',
+    },
+    codePdfUrl: {
+      type: String,
+      default: '',
     },
   },
   methods: {

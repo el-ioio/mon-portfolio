@@ -9,6 +9,7 @@
       :description="project.description"
       :link="project.link"
       :technology="project.technology"
+      :codePdfUrl="project.codePdfUrl"
       @close="isModalOpen = false"
     />
   </div>

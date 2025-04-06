@@ -31,6 +31,7 @@ export default {
           link: '/projets/MonCv.html',
           image: 'capture-cv.png',
           technology: 'HTML, CSS',
+          codePdfUrl: '/pdf/cv-code.pdf'
         },
         {
           id: 2,
@@ -40,6 +41,7 @@ export default {
           link: '/projets/MyHomespace.html',
           image: 'capture-my-homespace.png',
           technology: 'HTML, CSS',
+          codePdfUrl: '/pdf/homespace-code.pdf'
         },
         {
           id: 3,
@@ -58,6 +60,7 @@ export default {
           link: '/projets/DynamismeCommentaire.html',
           image: 'capture-dynamisme.png',
           technology: 'HTML, JS',
+          codePdfUrl: '/pdf/dynamisme-code.pdf'
         },
       ],
     };
