@@ -10,7 +10,7 @@
                     <img src="@/assets/image/twitter.png" alt="logo cliquable de twitter">
                 </a>
             </div>
-            <small>Mise à jour le <time datetime="2025-01-10">10/01/2025</time></small>
+            <small>Mise à jour le <time datetime="2025-04-06">06/04/2025</time></small>
         </section>
     </footer>
 </template>
